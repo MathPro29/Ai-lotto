@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgb(220, 242, 241);
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgb(23, 107, 135);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo>a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ul-navbar {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+.ul-navbar>.li-navbar>a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+.li{
+    text-align: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h1IndexText{
+    text-align: center;
+    margin-top: 0.6em;
+    font-size: 3rem;
+}
+
+.numberShowing{
+    text-align: center;
+    margin-top: 0.6em;
+    font-size: 60px;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.BigWinLottoBTN,.SmallWinLottoBTN{
+    font-size: 16px;
+    padding: 20px;
+    margin: 0.6em;
+    border-radius: 12px;
+    box-shadow: 8px 6px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.BigWinLottoBTN:hover{
+    cursor: pointer;
+    background-color: rgb(134, 182, 246);
+    color: white;
+    transition: 0.4s;
+    border: none;
+}
+
+.BigWinLottoBTN:focus{
+    transition: ease-in-out 0.4s;
+    border: none;
+}
+
+.SmallWinLottoBTN:hover{
+    cursor: pointer;
+    background-color: rgb(134, 182, 246);
+    color: white;
+    transition: 0.4s;
+    border: none;
+}
+.SmallWinLottoBTN:focus{
+    transition: ease-in-out 0.4s;
+    border: none;
+}
+
+
+.numberShowing{
+    color: rgb(23, 107, 135);
+}
+
+footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.dvb{
+    margin-top: 0.6rem;
+}
+
+@media (max-width:623px){
+    .logo{
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+   .navbar{
+    display: block;
+    margin: auto;
+   }
+   .ul-navbar{
+    display: block;
+   }
+   .ul-navbar>li>a{
+    display: block;
+    border-bottom: 0.6px solid grey;
+    padding: 2.5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    align-items: center;
+   }
+}
